@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="false" name="Suite">
+	<test name="ChromeTest">
+		<parameter name="browser" value="CHROME" />
+		
+		<classes>
+			<class name="assignments.WebOrder_Multitest_CreateOrder"/>
+		</classes>
+	</test>
+	<test name="FirefoxTest">
+		<parameter name="browser" value="Firefox" />
+		
+		<classes>
+			<class name="assignments.WebOrder_Multitest_CreateOrder"/>
+		</classes>
+	</test>
+	<test name="EdgeTest">
+		<parameter name="browser" value="Edge" />
+		
+		<classes>
+			<class name="assignments.WebOrder_Multitest_CreateOrder"/>
+		</classes>
+	</test>
+</suite>

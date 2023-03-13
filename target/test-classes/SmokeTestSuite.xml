@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestSuite" thread-count="2" parallel="Classes">
+  <test name="Test">
+    <classes>
+      <class name="pk_SeleniumProject.HandleUnexpectedAlert"/>
+      <class name="pk_SeleniumProject.spreecommerce_NavigationCommand"/>
+      <class name="pk_SeleniumProject.Weborder_Login_Mobile_Browser_View"/>
+      <class name="pk_SeleniumProject.Weborder_Login_DataProvider"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

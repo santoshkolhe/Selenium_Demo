@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="false" name="Suite">
+	<test name="ChromeTest">
+		<parameter name="browser" value="CHROME" />
+		
+		<classes>
+			<class name="assignmentsCrossBrowser.Weborder_Login_CreateOrder_CrossBrowser_MultiDataValidation"/>
+		</classes>
+	</test>
+	<test name="FirefoxTest">
+		<parameter name="browser" value="Firefox" />
+		
+		<classes>
+			<class name="assignmentsCrossBrowser.Weborder_Login_CreateOrder_CrossBrowser_MultiDataValidation"/>
+		</classes>
+	</test>
+	<test name="EdgeTest">
+		<parameter name="browser" value="Edge" />
+		
+		<classes>
+			<class name="assignmentsCrossBrowser.Weborder_Login_CreateOrder_CrossBrowser_MultiDataValidation"/>
+		</classes>
+	</test>
+</suite>
